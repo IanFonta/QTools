@@ -4,6 +4,8 @@
         box-sizing: border-box;
     }
 
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
     /*Fonts*/
     .architects-daughter-regular {
         font-family: "Architects Daughter", cursive;
@@ -11,47 +13,6 @@
         font-style: normal;
         font-size: 20px;
     }
-    .centrado {
-        text-align: center;
-    }
-
-    .columna {
-        display: inline-block;
-        margin-bottom: 25px;
-        vertical-align: top; /* Alinea los elementos hacia arriba */
-    }
-
-    .elemento {
-        padding: 10px;
-        border: 1px solid #ccc;
-        border-radius: 25px;
-        margin-top: 25px;
-    }
-
-    .elemento-img{
-        width: 50%;
-    }
-
-    .elemento-container{
-        width: 400px;
-    }
-
-    .elemento-text{
-        margin: 5px;
-    }
-
-    .elemento h3{
-        margin-top: 5px;
-    }
-
-    .elemento h6{
-        margin-top: 5px;
-    }
-
-    .elemento button{
-        margin-top: 10px;
-    }
-
 
 body {
     margin: 0;
@@ -72,40 +33,11 @@ h1 {
     margin-bottom: 20px;
 }
 
-input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 30px;
-}
-
 #logo{
     width: 100px;
 }
 
-button {
-    padding: 10px 40px;
-    border-radius: 5px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    -webkit-transition: background-color s ease-out;
-    -moz-transition: background-color 1s ease-out;
-    -o-transition: background-color 1s ease-out;
-    transition: background-color 1s ease-out;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
-
-#qrCode {
-    margin-top: 20px;
-}
-
-img{
-    display: inline-flex !important;
-}
+/*******************NAV BAR STYLES*******************/
 
 .navbar {
     position: relative;
@@ -191,6 +123,9 @@ img{
 }
 
 .nav-button a {
+    font-family: "Architects Daughter", cursive;
+    padding: 10px;
+    padding-right: 15px;
     display: block;
     color: white;
     text-decoration: none;
@@ -225,6 +160,127 @@ img{
     height: 700px;
     object-fit: cover;
 }
+
+/************SECCIONES HERRAMIENTAS************/
+
+.centrado {
+    text-align: center;
+}
+
+.columna {
+    display: inline-block;
+    margin-bottom: 25px;
+    vertical-align: top; /* Alinea los elementos hacia arriba */
+}
+
+.elemento {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    margin-top: 25px;
+}
+
+.elemento-img{
+    width: 50%;
+}
+
+.elemento-container{
+    width: 400px;
+}
+
+.elemento-text{
+    margin: 5px;
+}
+
+.elemento h3{
+    margin-top: 5px;
+    font-size: 20px;
+    font-family: "Architects Daughter", cursive;
+}
+
+.elemento h6{
+    margin-top: 5px;
+    font-size: 15px;
+    font-family: "Nunito", sans-serif;
+
+}
+
+.elemento button{
+    margin-top: 10px;
+}
+
+.titulo{
+    font-family: "Architects Daughter", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.boton {
+    font-family: "Architects Daughter", cursive;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    background: #007BFF; /* Gradiente rojo a azul */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.boton:hover {
+    background: #0157b3;
+    opacity: 0.9;
+}
+
+/*********************FOOTER**************************/
+footer {
+    font-family: "Architects Daughter", cursive;
+    background-color: #f2f2f2;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left img {
+    width: 100px;
+}
+
+.footer-right a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+.footer-right{
+    margin-right: 20px;
+}
+
+.footer-right a:hover {
+    color: #666;
+}
+
+.copyright {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+    font-family: "Nunito", sans-serif;
+}
+
+.separador{
+    size: 1px;
+    color: #27272707;
+}
+
+
 
 /********************MEDIA QUERIES********************/
 

@@ -47,10 +47,20 @@
     <div class="container">
         <img style="width: 300px;" src="/Web/QrGenerator/Img/QrImg.png" alt="">
         <h1>Generador de QR Code</h1>
-        <input type="text" id="textoInput" placeholder="Ingrese el texto">
+        <input type="text" id="textoInput" placeholder="Ingrese el texto" maxlength="50">
         <button onclick="generarQR()">Generar QR Code</button>
+        <button onclick="descargarQR()">Descargar QR</button>
         <div id="qrCode"></div>
+        <div id="textoQR"></div>
     </div>
+
+    <footer>
+        <div>
+            <div>
+                
+            </div>
+        </div>
+    </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="qrcode.min.js"></script>

@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/*Fonts*/
+.architects-daughter-regular {
+    font-family: "Architects Daughter", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -8,6 +18,7 @@ body {
     max-width: 600px;
     margin: 50px auto;
     text-align: center;
+    margin-bottom: 80px;
 }
 
 h1 {
@@ -25,6 +36,8 @@ input {
 }
 
 button {
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding: 25px 80px;
     border-radius: 5px;
     background-color: #007bff;
@@ -42,7 +55,24 @@ button:hover {
 }
 
 #qrCode {
-    margin-top: 20px;
+    margin: 20px;
+}
+
+#qrCode img{
+    margin: 20px;
+}
+
+#textoQR{
+    justify-content: center;
+    display: flex;
+}
+
+#textoQR p{
+    font-family: "Architects Daughter", cursive;
+    width: 80%;
+    justify-content: center;
+    display: flex;
+    background-color: rgba(155, 155, 155, 0.349);
 }
 
 img{
@@ -227,6 +257,8 @@ img{
     }
 
     .mobile-nav-button a {
+        font-family: "Architects Daughter", cursive;
+        padding: 10px;
         display: block;
         padding: 10px 20px;
         color: white;
