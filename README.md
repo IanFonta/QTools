@@ -6,7 +6,7 @@
 
 A brief description of what this project does and who it's for.
 
-Qtools was created for and to help people for free, lending them free online  tools for their jobs, exams, task, and daily things of the life. This project works from donations and free time of the programmer, soy maybe there will be there will be few updates from month to month.
+Qtools was created for and to help people for free, lending them free online  tools for their jobs, exams, task, and daily things of the life. This project works from donations and free time of the programmer, so maybe there will be there will be few updates from month to month.
 
 
 ## Authors
