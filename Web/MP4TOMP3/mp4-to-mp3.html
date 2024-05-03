@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8d48c4a151.js" crossorigin="anonymous"></script>
+    <title>QTools</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<header>
+    <div class="navbar">
+        <div class="nav-logo">
+            <a href="#"><img id="logo" src="/Web/QrGenerator/Img/Título.png" alt="Logo"></a>
+        </div>
+        <div class="nav-items">
+            <ul>
+                <li><a href="#"> Inicio </a></li>
+                <li><a href="#"> Herramientas </a></li>
+                <li><a href="#"> Contacto </a></li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <div class="anim-layer"></div>
+            <a href="https://github.com/IanFonta"><i class="fa-brands fa-github" id="github" style="color: #ffffff;padding: 10px 10px;"></i></a>
+        </div>
+        <div id="hamburger-menu">&#9776;</div>
+    </div>
+
+    <div id="mobile-menu">
+        <div class="mobile-nav-items">
+            <ul>
+                <li><a href="#"> Inicio </a></li>
+                <li><a href="#"> Herramientas </a></li>
+                <li><a href="#"> Contacto </a></li>
+            </ul>
+        </div>
+        <div class="mobile-nav-button">
+            <div class="anim-layer"></div>
+            <a href="#">Github</a>
+        </div>
+        <div id="hamburger-cross">&#10006;</div>
+    </div>
+</header>
+
+<body>
+    <div id="converter">
+        <h1>Conversor MP4 a MP3</h1>
+    
+        <input type="file" id="fileInput" accept=".mp4">
+        <button onclick="convertToMp3()">Convertir</button>
+        
+        <div id="downloadLink" style="display:none">
+            <a id="downloadButton" href="#" download="output.mp3">Descargar MP3</a>
+        </div>
+    </div>
+
+    <script src="Web\MP4TOMP3\app.js"></script>
+</body>
+</html>
